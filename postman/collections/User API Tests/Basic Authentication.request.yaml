@@ -1,4 +1,9 @@
 $kind: http-request
-url: ""
+url: https://postman-echo.com/basic-auth
 method: GET
+auth:
+  type: basic
+  credentials:
+    username: postman
+    password: password
 order: 7000
