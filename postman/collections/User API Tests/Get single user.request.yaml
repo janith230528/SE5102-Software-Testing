@@ -1,4 +1,4 @@
 $kind: http-request
-url: ""
+url: "{{baseURL}}api/users/2"
 method: GET
 order: 2000

@@ -1,4 +1,13 @@
 $kind: http-request
-url: ""
-method: GET
+url: "{{baseURL}}api/users/2"
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\": \"John\",\r
+
+    \    \"Job\": \"Principal\"\r
+
+    }"
 order: 4000

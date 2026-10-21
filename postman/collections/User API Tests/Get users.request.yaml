@@ -1,4 +1,6 @@
 $kind: http-request
-url: ""
+url: "{{baseURL}}api/users?page=2"
 method: GET
+queryParams:
+  page: "2"
 order: 1000
