@@ -1,4 +1,4 @@
 $kind: http-request
-url: ""
+url: https://jsonplaceholder.typicode.com/posts
 method: GET
 order: 6000
