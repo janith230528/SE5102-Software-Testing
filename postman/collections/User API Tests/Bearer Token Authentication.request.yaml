@@ -1,4 +1,8 @@
 $kind: http-request
-url: ""
+url: https://postman-echo.com/get
 method: GET
+auth:
+  type: bearer
+  credentials:
+    token: 123456abcdef
 order: 8000
