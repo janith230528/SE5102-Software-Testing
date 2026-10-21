@@ -1,4 +1,4 @@
 $kind: http-request
-url: ""
-method: GET
+url: "{{baseURL}}api/users/2"
+method: DELETE
 order: 5000
